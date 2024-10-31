@@ -112,8 +112,9 @@ full file as a reference, and then I will provide a chunk of the file.
               (spit "translation.py" "\n" :append true)
               (merge-with + ret (:usage response))))
           {}
-          [(str/join "\n" (subvec lines 2117 2396))]))
+          (find-chunks)))
 
 (comment
   (translate-file)
+
   (println (str/join "\n" (subvec lines 2117 2396))))
