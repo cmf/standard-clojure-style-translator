@@ -1,0 +1,6 @@
+/.nrepl-port
+/.cpcache/
+/.idea/
+translation.py
+/standard-clojure-style.js
+/standard-clojure-style-translator.iml
